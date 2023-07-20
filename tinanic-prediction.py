@@ -6,7 +6,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, confusion_matrix
 
 # Load the Titanic dataset
-df = pd.read_csv('test.csv')
+df = pd.read_csv('train.csv')
 
 # Data preprocessing (selecting relevant features and handling missing values)
 # For this example, we'll focus on the 'Pclass', 'Sex', 'Age', 'Fare', and 'Survived' features

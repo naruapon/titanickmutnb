@@ -5,7 +5,7 @@ from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
 
 # Load the Titanic dataset
-df = pd.read_csv('test.csv')
+df = pd.read_csv('train.csv')
 
 # Data preprocessing (selecting relevant features and handling missing values)
 # For this example, we'll focus on the 'Age' and 'Fare' features

@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the Titanic dataset
-df = pd.read_csv('test.csv')
+df = pd.read_csv('train.csv')
 
 # Data exploration and preprocessing (if required)
 # ... (you can perform some data cleaning and processing here if needed)
